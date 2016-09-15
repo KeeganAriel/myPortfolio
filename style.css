@@ -118,17 +118,16 @@ a:hover {
 	opacity: 0.89;
     border: 8px solid #8A3382;
     display: block;
-    margin-left: 10em;
+    margin-left: 12em;
     margin-right: auto;
     margin-top: 16em;
-    margin-left: 19em;
+
 }
 
 .love {
-	vertical-align:middle;
-    margin-right: 15em;
+    margin-right: 16em;
     text-align: right;
-    margin-top: -29em;
+    margin-top: -27.5em;
     margin-bottom: 8em;
 }
 
