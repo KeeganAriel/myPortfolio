@@ -1,0 +1,205 @@
+body {
+	font-family: 'Oswald', sans-serif;
+}
+
+/*<!-- border -->*/
+.top, .bottom, .left, .right {
+	background: #8A3382;
+	position: fixed;
+}
+
+.left, .right {
+	top: 0; 
+	bottom: 0;
+	width: 1em;
+}
+
+.left { 
+	left: 0; 
+}
+
+.right { 
+	right: 0; 
+}
+
+.top, .bottom {
+	left: 0; 
+	right: 0;
+	height: 1em;
+}
+
+.top { 
+	top: 0; 
+}
+
+.bottom { 
+	bottom: 0;
+	z-index: 10 
+}
+
+.navbar {
+	background-color: #8A3382;
+	position: fixed;
+	z-index: 10;
+	top: 0;
+	width: 100%;
+	display: flex;
+	align-items: center; 
+	height: 4em;
+}
+
+.navbar-logo {
+    margin-left: 1em;
+    /* margin-right: -2em; */
+    margin-top: 1px;
+    background-color: white;
+    border-radius: 4em;
+    height: 55px;
+    width: 55px;
+
+}
+
+.navbar-logo p {
+	text-align: center;
+    margin-top: 5px;
+    font-family: 'Grand Hotel', cursive;
+    font-size: 40px;
+    margin-left: -5px;
+
+}
+
+.nav-item {
+	padding-left: 2.5em;
+	font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 1.25em;
+}
+
+
+.nav-link {
+	text-decoration: none;
+}
+
+a:link {
+	color: #03031C;
+}
+
+a:visited {
+	color: #702062;
+}
+
+a:hover {
+	color: #FFEEDB;
+}
+
+.logo {
+	background-color: #8A3382;
+	border-radius: 20em;
+	height: 22em;
+	width: 22em;
+	margin-top: 10em;
+	margin-left: auto;
+	margin-right: auto;
+	vertical-align: middle;
+}
+
+.logo p {
+    text-align: center;
+    padding-top: 1.5em;
+    font-family:'Grand Hotel', cursive;
+	font-size: 5em;
+
+}
+
+.myPhoto {
+	border-radius: 15em;
+	width: 25em;
+	height: auto;
+	opacity: 0.89;
+    border: 8px solid #8A3382;
+    display: block;
+    margin-left: 10em;
+    margin-right: auto;
+    margin-top: 16em;
+    margin-left: 19em;
+}
+
+.love {
+	vertical-align:middle;
+    margin-right: 15em;
+    text-align: right;
+    margin-top: -29em;
+    margin-bottom: 8em;
+}
+
+.love h1 {
+	font-size: 5em;
+}
+ 
+.love h2 {
+	font-size: 1.75em;
+}
+
+.sites {
+    text-align: left;
+    font-size: 3em;
+    margin-left: 1.9em;
+    margin-top: 10em;
+
+}
+
+.sites h1 {
+	font-size: 5em;
+}
+
+
+.site {
+    display: flex;
+    width: 95%;
+    height: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.caption {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: #03031C;
+    background-color: rgba(112, 32, 98, 0.4);
+    border-radius: 7em;
+    height: 37em;
+    width: 50em;
+    margin-left: -12.5em;
+    margin-bottom: 4em;
+
+}
+
+.caption:first-child {
+	margin-left: 0 !important;
+}
+
+.caption:nth-child(even) {
+	margin-left: 22em;
+}
+
+.title {
+    font-size: 2em;
+    font-weight: 900;
+    letter-spacing: -.5px;
+    margin-bottom: -.25em;
+}
+
+.description {
+    font-size: 1.3em;
+    letter-spacing: -.5px;
+    margin-top: 1em;
+}
+
+.siteImage {
+    width: 33em;
+    padding: 10px;
+    padding-top: 2em;
+
+}
