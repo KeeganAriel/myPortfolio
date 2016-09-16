@@ -39,7 +39,7 @@ body {
 	z-index: 10 
 }
 
-.navbar {
+/*.navbar {
 	background-color: #8A3382;
 	position: fixed;
 	z-index: 10;
@@ -92,12 +92,8 @@ a:visited {
 
 a:hover {
 	color: #FFF8F0;
-}
 
-#home {
-	height: 30em;
-	width: auto;
-}
+}*/
 
 .logo {
 	background-color: #8A3382;
@@ -176,7 +172,7 @@ a:hover {
     border-radius: 3em;
     height: 32em;
     width: 42em;
-    margin-left: -8em;
+    margin-left: -9em;
     margin-bottom: 4em;
 
 }
