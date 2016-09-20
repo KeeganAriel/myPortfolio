@@ -231,7 +231,8 @@ a:hover {
 
 .contactMe a {
     text-decoration: none;
-    color: #b8857d;
+    color: #B974B2;
+   	color: rgba(138, 51, 129, 0.5);
 }
 
 .social {
